@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AvellanedaStoikov.cpp" />
+    <ClCompile Include="KalmanPricePrediction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Volatility.cpp" />
   </ItemGroup>
@@ -136,6 +137,7 @@
     <ClInclude Include="AvellanedaStoikov.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="KalmanFilter.h" />
+    <ClInclude Include="KalmanPricePrediction.h" />
     <ClInclude Include="Volatility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

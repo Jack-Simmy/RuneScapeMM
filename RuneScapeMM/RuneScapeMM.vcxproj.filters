@@ -24,6 +24,9 @@
     <ClCompile Include="Volatility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KalmanPricePrediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AvellanedaStoikov.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="KalmanFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KalmanPricePrediction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
