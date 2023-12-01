@@ -3,24 +3,23 @@
 #include <cstdio>
 #include <math.h>
 #include <iostream>
+#include <Eigen/Dense> //lfg matrix calculations now added
 #include "AvellanedaStoikov.h"
 #include "Volatility.h"
-
-
-// The Avellaneda-Stoikov model
-// https://quant.stackexchange.com/questions/36400/avellaneda-stoikov-market-making-model 
-
-// Volaltilty Handling
-// Historical Volatility Based on https://oldschool.runescape.wiki/w/RuneScape:Real-time_Prices#5-minute_prices
-// Max 5 minute data 365 data points per api call?
-
-// Using Sockets (Client-Server Approach) for data transfer (RAII style baby)
-
+#include "KalmanFilter.h"
+/*##########################################
+||                                        ||
+||                 !Todo!                 ||
+||         Networking Client Side         ||
+||              Thread Pool               ||
+||  Kalman Filtering for predicting price ||
+||  Kalman Filtering for predicting Vo
+||Machine Learning for spread calculations||
+||                                        ||
+||                                        ||
+##########################################*/
 
 int main()
 {
-	std::vector<double> prices = { 100, 200, 300, 400, 500, 100, 200, 300, 500, 600 };
-	std::cout << Daily_Volatility(prices) << std::endl;
 	return 0;
 }
-

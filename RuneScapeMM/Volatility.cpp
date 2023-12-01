@@ -5,7 +5,7 @@ double Daily_Volatility(const std::vector<double>& prices)
     
     if (prices.size() < 2)
     {
-        throw std::runtime_error("Not enough data points to calculate historical volatility.");
+        throw std::runtime_error("Not enough data points to calculate daily volatility.");
     }
     // create a vector for log normal Returns
     std::vector<double> log_Returns;
